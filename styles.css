@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+
+.h2-heading {
+    color: #634AAF;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto';
+    background-color: #fff;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.info-text {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 8px 40px rgb(99 74 175 / 10%);
+}
+
+.form__label {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.form__input {
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.form__input:focus {
+    border-color: #634AAF;
+}
+
+.form__button {
+    background-color: #634AAF;
+    padding: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: all 0.5s;
+    border: 0;
+    border-radius: 4px;
+}
+
+.form__button:hover {
+    background-color: #2BBF98;
+    cursor: pointer;
+    cursor: grab;
+}
+
+.form__button:hover::after {
+    cursor: pointer;
+    content:" NU";
+}
+
+.footer-text {
+    display: flex;
+    text-align: center;
+}
