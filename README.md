@@ -1,3 +1,7 @@
-# Splittanotan.nu
+<p align="center"><img src="https://iili.io/HYT3Sn4.jpg" width="100%" height="100%"/></p>
 
-Splitttanotan.nu is a website that lets you and your friends to split the the restaurant bill. The user enters the total amount(kr), the number of friends and then the tip(kr).
+# Splittanotan.nu
+Splitttanotan.nu is a website that lets you and your friends to split the the restaurant bill.
+
+# Instructions
+The user enters the total amount, the number of friends and then the tip.
