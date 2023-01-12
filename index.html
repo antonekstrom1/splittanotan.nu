@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+        <title>Splittanotan.nu | Splitta resutrangnotan med dina vänner direkt i vår kalkylator!</title>
+    </head>
+    <header>
+        <nav class="topnav">
+            <a class="active" href="/index.html">Startsida</a>
+            <a href="https://github.com/antonekstrom1" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">Se fler projekt</a>
+        </nav>
+    </header>
+<body>
+    <main class="wrapper">
+        <h2 class="h2-heading">SPLITTA<strong>NOTAN</strong>.NU</h2>
+        <section class="form" id="inputForm">
+            <section>
+                <label for="sum" class="form__label form__label_sum">Summa</label>
+                <input required placeholder="Ange belopp" type="number" id="sum" class="form__input">
+            </section>
+        <section>
+                <label for="numberOfFriends" class="form__label form__label_friends">Antal vänner</label>
+                <input required  placeholder="Ange antal personer" type="number" id="numberOfFriends" class="form__input">
+        </section>
+        <section>
+                <label for="tip" class="form__label form__label_tip">Dricks</label>
+                <input required placeholder="Ange belopp" type="number" id="tip" class="form__input">
+        </section>
+        <button id="calculateButton" class="form__button" type="submit">SPLITTA NOTAN</button>
+        <article class="made-by-text">
+        <p>© 2023 Made by <a href="google.se"><a style="font-weight: bold; color: #000; text-decoration: underline;" href="https://github.com/antonekstrom1" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">antonekstrom</a></p>
+        </article>
+        </section>
+        <section class="form hide" id="showSum">
+            <article>
+                <h2>Totalt belopp:</h2>
+                <h3 id="friendSum" class="show-sum"></h3>
+                <a class="show-sum" style="font-weight: bold; color: #000; text-decoration: underline;" href="/">Försök igen ↺</a>
+            </article>
+        </section>
+    </main>    
+    <script src="js/index.js"></script>
+</body>
+</html>
